@@ -2,13 +2,13 @@
  * @Author: fuyunyou
  * @Date: 2024-09-24 13:42:35
  * @LastEditors: fuyunyou
- * @LastEditTime: 2024-10-18 11:47:43
+ * @LastEditTime: 2024-11-01 14:12:55
  * @Description: 串口驱动，按照指定数据格式收发数据
  * 数据格式：帧头'['+命令段'command'+分隔标识符':'+数据段'data'+帧尾']'
  * 命令和数据长度最大均为50字节
- * @FilePath: \switch\hardware\UART.c
+ * @FilePath: \UsartPrint_example\Usart.c
  */
-#include "UART.h"
+#include "Usart.h"
 
 char Rx_Packet[10][20];
 uint8_t Rx_Flag=0;

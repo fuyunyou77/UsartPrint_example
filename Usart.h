@@ -6,8 +6,8 @@
  * @Description:
  * @FilePath: \switch\hardware\UART.h
  */
-#ifndef __UART_H__
-#define __UART_H__
+#ifndef __USART_H
+#define __USART_H
 
 #include "stm32f10x.h"
 #include "Delay.h"
